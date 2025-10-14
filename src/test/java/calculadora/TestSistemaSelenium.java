@@ -27,7 +27,6 @@ class TestSistemaSelenium {
         System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver-win64\\chromedriver.exe");
         //Inicializa o ChromeDriver
         driver = new ChromeDriver();
-        System.out.println("Titulo: " + driver.getTitle());
     }
 
     @Test
@@ -56,7 +55,7 @@ class TestSistemaSelenium {
         //Verifica o texto de retorno da página
         WebElement corpoElementoTexto = driver.findElement(By.tagName("body"));
         String texto = corpoElementoTexto.getText();
-        System.out.println("Texto de retorno: " + texto);
+        //System.out.println("Texto de retorno: " + texto);
         
         //Verifica se o texto da página está correto
         assertTrue(texto.contains("A soma de 10.0 + 20.0 = 30.0"));
@@ -88,7 +87,7 @@ class TestSistemaSelenium {
         //Verifica o texto de retorno da página
         WebElement corpoElementoTexto = driver.findElement(By.tagName("body"));
         String texto = corpoElementoTexto.getText();
-        System.out.println("Texto de retorno: " + texto);
+        //System.out.println("Texto de retorno: " + texto);
         
         //Verifica se o texto da página está correto
         assertTrue(texto.contains("A diferenca de 10.0 - 20.0 = -10.0"));
@@ -120,7 +119,7 @@ class TestSistemaSelenium {
         //Verifica o texto de retorno da página
         WebElement corpoElementoTexto = driver.findElement(By.tagName("body"));
         String texto = corpoElementoTexto.getText();
-        System.out.println("Texto de retorno: " + texto);
+        //System.out.println("Texto de retorno: " + texto);
         
         //Verifica se o texto da página está correto
         assertTrue(texto.contains("O produto de 10.0 * 20.0 = 200.0"));
@@ -152,7 +151,7 @@ class TestSistemaSelenium {
         //Verifica o texto de retorno da página
         WebElement corpoElementoTexto = driver.findElement(By.tagName("body"));
         String texto = corpoElementoTexto.getText();
-        System.out.println("Texto de retorno: " + texto);
+        //System.out.println("Texto de retorno: " + texto);
         
         //Verifica se o texto da página está correto
         assertTrue(texto.contains("O quociente de 10.0 / 20.0 = 0.5"));

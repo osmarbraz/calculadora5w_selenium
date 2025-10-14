@@ -40,11 +40,10 @@ public class CtrCalculadora extends HttpServlet {
 
                 // Instancia o objeto Calculadora
                 Calculadora calculadora = new Calculadora();
+                //Recupera os parâmetros
                 calculadora.setValorA(getValorReal(request.getParameter("ValorA")));
                 calculadora.setValorB(getValorReal(request.getParameter("ValorB")));
-                
-                //out.println("<p id=\"mensagem\">");
-                 
+                    
                 if (request.getParameter(OPERACAO).equals("adicao")) {
                     out.print("A soma de " + calculadora.getValorA() + " + " + calculadora.getValorB() + " = " + calculadora.getSoma() + " <p>");
                 } else {
@@ -61,8 +60,7 @@ public class CtrCalculadora extends HttpServlet {
                             }
                         }
                     }
-                }
-                //out.println("</p>");
+                }                
                 out.print("<a href=\"" + request.getContextPath() + "/FrmCalculadora.jsp\"> Novo cálculo </a><p></body></html>");
             }
         } catch (IOException e) {
