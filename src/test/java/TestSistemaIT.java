@@ -1,5 +1,3 @@
-package calculadora;
-
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +12,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Testes de sistema utilizando o Selenium
  */
-class TestSistemaSelenium {
+class TestSistemaIT {
 
     //Declarando um objeto do tipo WebDriver, utilizado pelo Selenium WebDriver.
     static WebDriver driver;
@@ -24,7 +22,7 @@ class TestSistemaSelenium {
     @BeforeAll
     static void inicializacao() {
         //Definindo o caminho para o executável do ChromeDriver
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver-win64\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver-win64\\chromedriver.exe");
         //Inicializa o ChromeDriver
         driver = new ChromeDriver();
     }
