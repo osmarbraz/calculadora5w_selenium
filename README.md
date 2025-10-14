@@ -5,8 +5,7 @@
 - Utiliza o Apache Maven para a automatização da construção.<br>
 - A pasta test contêm os testes unitários do projeto utilizando JUnit 5.<br>
 
-  - Testes unitários.
-  
+  - Testes unitários.  
   - Testes unitários com Mockito.
   
   - Testes de sistema com Selenium.
