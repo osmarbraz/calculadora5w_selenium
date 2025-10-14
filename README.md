@@ -9,7 +9,6 @@
   
   - Testes unitários com Mockito.<br>
   
-  - Testes de sistema com Selenium.<br>
-  
+  - Testes de sistema com Selenium.<br>  
 - A cobertura do código é realizada através do JaCoCo 0.8.8.<br>
 - Utilize Selenium 4.13.0 para realizar testes de sistemas.
