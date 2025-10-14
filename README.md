@@ -3,8 +3,7 @@
 <br>
 - O projeto foi desenvolvido no JDK 1.8 e NetBeans 13 deve ser chamado calculadora5w_selenium.<br>
 - Utiliza o Apache Maven para a automatização da construção.<br>
-- A pasta test contêm os testes unitários do projeto utilizando JUnit 5.<br>
-
+- A pasta test contêm os testes unitários do projeto utilizando JUnit 5.
   - Testes unitários.  
   - Testes unitários com Mockito.  
   - Testes de sistema com Selenium.
