@@ -6,8 +6,7 @@
 - A pasta test contêm os testes unitários do projeto utilizando JUnit 5.<br>
 
   - Testes unitários.  
-  - Testes unitários com Mockito.
-  
+  - Testes unitários com Mockito.  
   - Testes de sistema com Selenium.
 <br>
 - A cobertura do código é realizada através do JaCoCo 0.8.8.<br>
