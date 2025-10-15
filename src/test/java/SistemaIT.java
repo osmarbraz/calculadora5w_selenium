@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Testes de sistema utilizando o Selenium
  */
-class TestSistemaIT {
+class SistemaIT {
 
     //Declarando um objeto do tipo WebDriver, utilizado pelo Selenium WebDriver.
     static WebDriver driver;
